@@ -2,7 +2,7 @@ package com.example.mynewsapp.model;
 
 import java.util.List;
 
-public class RootModel extends Model {
+public class Result extends Model {
     private String status;
     private Integer totalResults;
     private List<Article> articles;
@@ -33,7 +33,7 @@ public class RootModel extends Model {
 
     @Override
     public String toString() {
-        return "RootModel{" +
+        return "Result{" +
                 "status='" + status + '\'' +
                 ", totalResults=" + totalResults +
                 ", articles=" + articles +

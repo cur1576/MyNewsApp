@@ -1,4 +1,4 @@
 package com.example.mynewsapp.model;
 
-public class Model {
+public abstract class Model {
 }
